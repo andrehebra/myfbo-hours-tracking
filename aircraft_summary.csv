@@ -1,25 +1,25 @@
-Last Updated: 2025-11-10 10:25:55
+Last Updated: 2025-11-10 10:30:43
 Tail,Type,Base,Current Tach,Hours Until 100-Hour,Days Until Annual,Days Until FAA Re-Registration
-N12SA,CE_172_SP,KISM,,10.8 hours,202 days,567 days
-N174TH,CE_172_SP,KORL,,74.0 hours,110 days,659 days
-N195TH,CE_172_SP,KISM,,15.9 hours,110 days,1844 days
-N2302Y,CE_172_SP,KISM,,56.0 hours,82 days,1359 days
-N24108,CE_172_SP,KORL,,36.4 hours,355 days,1662 days
-N401AA,CE_172_SP,KISM,,73.6 hours,294 days,2187 days
-N452MK,CE_172_SP,KISM,,52.9 hours,232 days,1816 days
-N464ER,CE_172_SP,KORL,,42.7 hours,324 days,2058 days
-N52522,CE_172_SP,KORL,,48.9 hours,171 days,750 days
-N5524A,CE_172_SP,KISM,,3.5 hours,294 days,659 days
-N55297,CE_172_SP,KORL,,3.5 hours,171 days,1116 days
-N6064R,CE_172_SP,KORL,,92.9 hours,171 days,1877 days
-N628SG,CE_172_SP,KISM,,45.8 hours,294 days,1846 days
-N899AA,CE_172_SP,KISM,,88.0 hours,51 days,1908 days
-N25582,CE152,KISM,,100.0 hours,385 days,1543 days
-N6132Q,CE152,KISM,,76.7 hours,330 days,1359 days
-N89743,CE152,KISM,,88.8 hours,355 days,629 days
-N505FM,DA42_NG,KISM,,14.3 hours,51 days,1815 days
-N1252L,PipistrelAT,KISM,,70.9 hours,141 days,2271 days
-N221AP,PipistrelAT,KISM,,100.0 hours,385 days,2150 days
+N12SA,CE_172_SP,KISM,5268.90,10.8 hours,202 days,567 days
+N174TH,CE_172_SP,KORL,4774.80,74.0 hours,110 days,659 days
+N195TH,CE_172_SP,KISM,5276.00,15.9 hours,110 days,1844 days
+N2302Y,CE_172_SP,KISM,8056.20,56.0 hours,82 days,1359 days
+N24108,CE_172_SP,KORL,3965.70,36.4 hours,355 days,1662 days
+N401AA,CE_172_SP,KISM,2213.60,73.6 hours,294 days,2187 days
+N452MK,CE_172_SP,KISM,1633.90,52.9 hours,232 days,1816 days
+N464ER,CE_172_SP,KORL,7546.20,42.7 hours,324 days,2058 days
+N52522,CE_172_SP,KORL,9048.20,48.9 hours,171 days,750 days
+N5524A,CE_172_SP,KISM,4485.20,3.5 hours,294 days,659 days
+N55297,CE_172_SP,KORL,5003.80,3.5 hours,171 days,1116 days
+N6064R,CE_172_SP,KORL,11130.70,92.9 hours,171 days,1877 days
+N628SG,CE_172_SP,KISM,7649.50,45.8 hours,294 days,1846 days
+N899AA,CE_172_SP,KISM,4283.00,88.0 hours,51 days,1908 days
+N25582,CE152,KISM,2357.00,100.0 hours,385 days,1543 days
+N6132Q,CE152,KISM,2379.30,76.7 hours,330 days,1359 days
+N89743,CE152,KISM,841.70,88.8 hours,355 days,629 days
+N505FM,DA42_NG,KISM,1793.40,14.3 hours,51 days,1815 days
+N1252L,PipistrelAT,KISM,229.00,70.9 hours,141 days,2271 days
+N221AP,PipistrelAT,KISM,300.80,100.0 hours,385 days,2150 days
 ELITE,AATD,KISM,,,,
 RB_LD_1,AATD,KISM,,,,
 RDBirdF,AATD,KORL,,,,
