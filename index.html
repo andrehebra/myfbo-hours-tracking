@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aircraft Maintenance CSV</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #999;
+      padding: 8px 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #ADC0CF;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Aircraft Maintenance Summary</h1>
+
+<table id="csvTable">
+  <thead></thead>
+  <tbody></tbody>
+</table>
+
+<script>
+  const table = document.getElementById('csvTable');
+  const thead = table.querySelector('thead');
+  const tbody = table.querySelector('tbody');
+
+  // Automatically fetch and display the CSV
+  fetch('aircraft_summary.csv')
+    .then(response => response.text())
+    .then(text => displayCSV(text))
+    .catch(err => {
+      console.error("Error loading CSV:", err);
+      tbody.innerHTML = '<tr><td colspan="10">Failed to load CSV file.</td></tr>';
+    });
+
+  function displayCSV(csvText) {
+    const rows = csvText.split('\n').filter(r => r.trim() !== '');
+    thead.innerHTML = '';
+    tbody.innerHTML = '';
+
+    if (rows.length === 0) return;
+
+    // Create table header
+    const headers = rows[0].split(',');
+    const headerRow = document.createElement('tr');
+    headers.forEach(h => {
+      const th = document.createElement('th');
+      th.textContent = h.trim();
+      headerRow.appendChild(th);
+    });
+    thead.appendChild(headerRow);
+
+    // Create table body
+    rows.slice(1).forEach(row => {
+      const tr = document.createElement('tr');
+      const cols = row.split(',');
+      cols.forEach(c => {
+        const td = document.createElement('td');
+        td.textContent = c.trim();
+        tr.appendChild(td);
+      });
+      tbody.appendChild(tr);
+    });
+  }
+</script>
+
+</body>
+</html>
