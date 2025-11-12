@@ -1,11 +1,11 @@
-Last Updated: 2025-11-12 08:21:43
+Last Updated: 2025-11-12 09:07:28
 Tail,Type,Base,Current Tach,Hours Until 100-Hour,Days Until Annual,Days Until FAA Re-Registration
 N12SA,CE_172_SP,KISM,5273.50,6.2 hours,200 days,565 days
 N174TH,CE_172_SP,KORL,4776.70,72.1 hours,108 days,657 days
 N195TH,CE_172_SP,KISM,5278.40,13.5 hours,108 days,1842 days
-N2302Y,CE_172_SP,KISM,8058.00,54.2 hours,80 days,1357 days
+N2302Y,CE_172_SP,KISM,8058.60,53.6 hours,80 days,1357 days
 N24108,CE_172_SP,KORL,3968.70,33.4 hours,353 days,1660 days
-N401AA,CE_172_SP,KISM,2217.30,69.9 hours,292 days,2185 days
+N401AA,CE_172_SP,KISM,2219.60,67.6 hours,292 days,2185 days
 N452MK,CE_172_SP,KISM,1635.60,51.2 hours,230 days,1814 days
 N464ER,CE_172_SP,KORL,7547.80,41.1 hours,322 days,2056 days
 N52522,CE_172_SP,KORL,9048.20,48.9 hours,169 days,748 days
@@ -18,7 +18,7 @@ N25582,CE152,KISM,2357.00,100.0 hours,383 days,1541 days
 N6132Q,CE152,KISM,2382.20,73.8 hours,328 days,1357 days
 N89743,CE152,KISM,843.90,86.6 hours,353 days,627 days
 N505FM,DA42_NG,KISM,1793.40,14.3 hours,49 days,1813 days
-N1252L,PipistrelAT,KISM,231.90,68.0 hours,139 days,2269 days
+N1252L,PipistrelAT,KISM,234.60,65.3 hours,139 days,2269 days
 N221AP,PipistrelAT,KISM,302.10,98.7 hours,383 days,2148 days
 ELITE,AATD,KISM,,,,
 RB_LD_1,AATD,KISM,,,,
